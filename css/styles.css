@@ -440,18 +440,15 @@ ul>.mail {
 /* footer styles */
 
 
-
-.footer-div>a {
-    margin: 0;
-}
-
 .site-footer {
     background: var(--bg-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-
+.footer-cont > a {
+    padding: 0;
+}
 
 .foot-logo {
     color: var(--white-color);
@@ -468,10 +465,11 @@ ul>.mail {
     padding: 0;
 }
 
-
 .footer-li:not(:last-child) {
     margin-bottom: 9px;
 }
+
+
 
 /* address styles */
 
@@ -506,7 +504,26 @@ ul>.mail {
     color: var(--accent-color);
 }
 
+.footer-div {
+    display: flex;
+    flex-direction: row;
+}
 
+
+
+.footer-social {
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-left: 70px; 
+
+}
 
 /* portfolio decor */
 
