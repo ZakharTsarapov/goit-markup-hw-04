@@ -46,6 +46,7 @@ img {
     --border-bottom: #EEEEEE;
     --overlay: rgba(47, 48, 58, 0.4);
     --overlay2: #C4C4C4;
+    --bg-logo: #AFB1B8;
 }
 
 
@@ -70,6 +71,8 @@ h5 {
     letter-spacing: 0.03em;
     margin: 0;
 }
+
+
 
 .list {
     margin-left: 0px;
@@ -437,6 +440,45 @@ ul>.mail {
     text-align: center;
 }
 
+/* our clients */
+
+.clients>ul {
+    padding: 0px;
+}
+
+.clients-ul {
+    background-color: var(--bg-logo);
+}
+
+
+.clients-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    display: inline-block;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    list-style: none;
+    margin-left: 0px;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.clients-list + .clients-list {
+    margin-left: 25px;
+}
+
+
+
+
+
 /* footer styles */
 
 
@@ -446,7 +488,7 @@ ul>.mail {
     padding-bottom: 60px;
 }
 
-.footer-cont > a {
+.footer-cont>a {
     padding: 0;
 }
 
@@ -506,14 +548,17 @@ ul>.mail {
 
 .footer-div {
     display: flex;
-    flex-direction: row;
+    align-items: baseline;
+
 }
 
-
+.footer-cont .site-logo {
+    margin-top: 0;
+    margin-right: 0;
+}
 
 .footer-social {
-    justify-content: center;
-
+    height: 80px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -521,7 +566,7 @@ ul>.mail {
     text-transform: uppercase;
 
     color: #FFFFFF;
-    margin-left: 70px; 
+    margin-left: 70px;
 
 }
 
