@@ -460,7 +460,7 @@ ul>.mail {
 }
 
 .clients-list {
-    color: var(--bg-logo);
+    color: var(--bg-color);
     border: 1px solid var(--bg-logo);
     border-radius: 4px;
     width: 170px;
@@ -478,12 +478,17 @@ ul>.mail {
 .clients-list:hover {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
+
 }
 
-.clients-icons {
+.clients-icons:hover {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
+.icon {
     fill: currentColor;
 }
-
 
 /* footer styles */
 
