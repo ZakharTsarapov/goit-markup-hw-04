@@ -47,6 +47,7 @@ img {
     --overlay: rgba(47, 48, 58, 0.4);
     --overlay2: #C4C4C4;
     --bg-logo: #AFB1B8;
+    --clients: #AFB1B8;
 }
 
 
@@ -488,9 +489,12 @@ ul>.mail {
     
 }
 
-.icon {
+.clients-icons {
+    color: var(--clients);
     fill: currentColor;
 }
+
+
 
 /* footer styles */
 
