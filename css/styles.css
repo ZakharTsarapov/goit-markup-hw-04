@@ -475,15 +475,17 @@ ul>.mail {
     margin-left: 30px;
 }
 
-.clients-list:hover {
+.clients-list:hover,
+.clients-list:focus {
     color: var(--accent-color);
     border: 1px solid var(--accent-color);
 
 }
 
-.clients-icons:hover {
+.clients-icons:hover,
+.clients-icons:focus {
     color: var(--accent-color);
-    border: 1px solid var(--accent-color);
+    
 }
 
 .icon {
