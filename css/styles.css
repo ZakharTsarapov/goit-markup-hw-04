@@ -447,8 +447,6 @@ ul>.mail {
 }
 
 .clients-ul {
-    isplay: flex;
-    flex-direction: row;
     padding: 0;
     background-color: var(--bg-logo);
     list-style: none;
@@ -463,7 +461,7 @@ ul>.mail {
     margin-bottom: 50px;
 }
 
-/* .clients-list {
+.clients-list {
     display: inline-block;
     width: 170px;
     height: 92px;
@@ -472,11 +470,11 @@ ul>.mail {
     margin-left: 0px;
     align-items: center;
     padding: 16px 32px;
-} */
+}
 
-/* .clients-list+.clients-list {
+.clients-list + .clients-list {
     margin-left: 25px;
-} */
+}
 
 
 
