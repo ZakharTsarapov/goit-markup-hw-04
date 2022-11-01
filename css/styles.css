@@ -48,6 +48,7 @@ img {
     --overlay2: #C4C4C4;
     --bg-logo: #AFB1B8;
     --clients: #AFB1B8;
+    --bg-social: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -599,6 +600,8 @@ ul>.mail {
     margin-right: 0;
 }
 
+
+
 .footer-social {
     height: 80px;
     font-weight: 700;
@@ -610,6 +613,37 @@ ul>.mail {
     color: #FFFFFF;
     margin-left: 70px;
 
+}
+
+.footer-social>ul {
+    display: flex;
+    max-width: 206px;
+    max-height: 44px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    min-height: 44px;
+    color: var(--white-color);
+    background-color: var(--bg-social);
+    border-radius: 50%;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+    background-color: var(--accent-color);
+}
+
+.footer-icons {
+    fill: currentColor;
 }
 
 /* portfolio decor */
