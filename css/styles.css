@@ -185,17 +185,20 @@ h5 {
 
 }
 
-.envelope {
+.contact-icons {
     margin-right: 10px;
     fill: currentColor;
 }
+
+
 
 .tel {
     margin-left: 50px;
 }
 
 .mail-tel {
-    
+    display: flex;
+    align-items: center;
     color: var(--text-color);
 }
 
@@ -218,7 +221,8 @@ ul>.mail {
 }
 
 .tel-mail {
-
+    display: flex;
+    align-items: center;
     color: var(--text-color);
 }
 
@@ -489,7 +493,7 @@ ul>.mail {
     color: var(--clients);
     border-radius: 4px;
     border: 1px solid var(--bg-logo);
-    
+
 
 }
 
