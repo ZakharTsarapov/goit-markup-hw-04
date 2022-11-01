@@ -318,8 +318,33 @@ ul>.mail {
     padding: 0;
 }
 
-.preority-li::before {
-    display: block;
+.antenna {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+}
+
+.clock {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+
+}
+
+.diagram {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+}
+
+.astronaut {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+}
+
+/* .preority-li::before {
+    display: flex;
     content: '';
     height: 120px;
     background-color: var(--bg-button);
@@ -327,9 +352,9 @@ ul>.mail {
     background-repeat: no-repeat;
     background-position: center;
     padding: 25px 100px;
-}
+} */
 
-.antenna::before {
+/* .antenna::before {
     background-image: url(../images/antenna.svg);
 
 }
@@ -347,7 +372,7 @@ ul>.mail {
 .astronaut::before {
     background-image: url(../images/astronaut.svg);
 
-}
+} */
 
 .preority-title {
     font-size: 14px;
