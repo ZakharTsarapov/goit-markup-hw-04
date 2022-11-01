@@ -448,9 +448,7 @@ ul>.mail {
     padding: 0px;
     list-style: none;
     background-color: var(--site-bg);
-    list-style: none;
 }
-
 
 .clients-title {
     font-size: 36px;
@@ -460,41 +458,27 @@ ul>.mail {
     margin-bottom: 50px;
 }
 
-.clients-list {
-    color: var(--bg-color);
-
-    border: 1px solid var(--bg-logo);
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    margin-left: 0px;
-    padding: 16px 32px;
-    list-style: none;
-}
-
-
 .clients-list+.clients-list {
     margin-left: 30px;
 }
 
-
-.clients-list:hover,
-.clients-list:focus {
-
-    border: 1px solid var(--accent-color);
-
-}
-
-
-.clients-icons:hover,
-.clients-icons:focus {
-    color: var(--accent-color);
-
-}
-
-.clients-icons {
+.clients-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    min-height: 92px;
     color: var(--clients);
+    border-radius: 4px;
+    border: 1px solid var(--bg-logo);
+    margin-left: 0px;
 
+}
+
+.clients-links:hover,
+.clients-links:focus {
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
 
 }
 
