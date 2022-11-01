@@ -315,7 +315,6 @@ ul>.mail {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -335,11 +334,25 @@ ul>.mail {
     padding: 0;
 }
 
-.preority-icons {
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
-    padding: 25px 100px;
+    background: var(--bg-button);
+    border-radius: 4px;
+    gap: 30px;
+    margin-bottom: 30px;
 }
+
+.preority-icons {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+}
+
 
 .preority-title {
     font-size: 14px;
