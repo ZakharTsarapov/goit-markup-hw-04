@@ -185,6 +185,24 @@ h5 {
 
 }
 
+.envelope {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.tel {
+    margin-left: 50px;
+}
+
+.mail-tel {
+    color: var(--text-color);
+}
+
+.mail-tel:hover,
+.mail-tel:focus {
+    color: var(--accent-color);
+}
+
 .mail {
     color: var(--text-color);
 }
@@ -193,22 +211,20 @@ ul>.mail {
     padding-left: 0px;
 }
 
+.smartphone {
+    margin-left: 10px;
+    fill: currentColor;
+}
 
-.tel {
+.tel-mail {
     color: var(--text-color);
-    margin-left: 50px;
-
 }
 
-.mail:hover,
-.mail:focus {
+.tel-mail:hover,
+.tel-mail:focus {
     color: var(--accent-color);
 }
 
-.tel:hover,
-.tel:focus {
-    color: var(--accent-color);
-}
 
 /* main styles */
 
@@ -231,8 +247,6 @@ ul>.mail {
     background-size: cover;
 
 }
-
-
 
 .section {
     padding-top: 94px;
@@ -301,10 +315,6 @@ ul>.mail {
     overflow: hidden;
 }
 
-
-
-
-
 .preority-ul {
     display: flex;
     padding-left: 0;
@@ -318,61 +328,11 @@ ul>.mail {
     padding: 0;
 }
 
-.antenna {
+.preority-icons {
     width: 270px;
     height: 120px;
     padding: 25px 100px;
 }
-
-.clock {
-    width: 270px;
-    height: 120px;
-    padding: 25px 100px;
-
-}
-
-.diagram {
-    width: 270px;
-    height: 120px;
-    padding: 25px 100px;
-}
-
-.astronaut {
-    width: 270px;
-    height: 120px;
-    padding: 25px 100px;
-}
-
-/* .preority-li::before {
-    display: flex;
-    content: '';
-    height: 120px;
-    background-color: var(--bg-button);
-    border-radius: 4px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 25px 100px;
-} */
-
-/* .antenna::before {
-    background-image: url(../images/antenna.svg);
-
-}
-
-.clock::before {
-    background-image: url(../images/clock.svg);
-
-}
-
-.diagram::before {
-    background-image: url(../images/diagram.svg);
-
-}
-
-.astronaut::before {
-    background-image: url(../images/astronaut.svg);
-
-} */
 
 .preority-title {
     font-size: 14px;
