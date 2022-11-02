@@ -341,11 +341,11 @@ ul>.mail {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     height: 120px;
     background: var(--bg-button);
     border-radius: 4px;
-    
+
     margin-bottom: 30px;
 }
 
@@ -599,7 +599,7 @@ ul>.mail {
 
 
 .footer-social {
-    
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
