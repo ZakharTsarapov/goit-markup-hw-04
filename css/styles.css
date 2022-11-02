@@ -162,6 +162,7 @@ h5 {
 
 }
 
+
 .menu-nav .head-text.current {
     color: var(--accent-color);
 }
@@ -331,6 +332,7 @@ ul>.mail {
 }
 
 .preority-li {
+    flex-basis: calc((100% - 90px) / 4);
     padding: 0;
 }
 
@@ -339,11 +341,11 @@ ul>.mail {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 270px;
+    
     height: 120px;
     background: var(--bg-button);
     border-radius: 4px;
-    gap: 30px;
+    
     margin-bottom: 30px;
 }
 
@@ -441,6 +443,7 @@ ul>.mail {
 }
 
 .team-li {
+    flex-basis: calc((100% - 90px) / 4);
     background-color: var(--border-bottom);
     background: var(--white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -488,20 +491,14 @@ ul>.mail {
 
 }
 
-.clients-title {
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+.clients-list {
+    flex-basis: calc((100% - 150px) / 6);
 }
-
-
 
 .clients-links {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
     height: 92px;
     color: var(--clients);
     border-radius: 4px;
@@ -602,7 +599,7 @@ ul>.mail {
 
 
 .footer-social {
-    height: 80px;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -705,13 +702,15 @@ ul>.mail {
     display: block;
 }
 
-.scase-link:hover {
+.scase-link:hover,
+.scase-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .li-scase {
+    flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
 }
